@@ -1,0 +1,16 @@
+{
+  "name": "training-samples",
+  "version": "1.0.0",
+  "description": "Sample code cho khóa đào tạo Automation Testing iPortal",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "data": "npx tsx"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
