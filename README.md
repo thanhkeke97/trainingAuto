@@ -1,4 +1,4 @@
-# 🎓 Training Samples – Automation Testing iPortal
+# 🎓 Training Samples – Automation Testing
 
 Sample code cho khóa đào tạo Automation Testing (Playwright + TypeScript) dành cho Manual Tester.
 
