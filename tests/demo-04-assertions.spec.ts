@@ -10,9 +10,10 @@
  */
 
 import { test, expect } from '@playwright/test';
-
+// test suite
 test.describe('Các assertion (hàm kiểm tra) thường dùng', () => {
 
+    //test case
   test('Kiểm tra element hiển thị / bị ẩn', async ({ page }) => {
     await page.goto('https://demo.playwright.dev/todomvc');
 

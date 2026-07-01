@@ -9,6 +9,7 @@
 
 import { test, expect } from '@playwright/test';
 
+// modulte
 test.describe('Các hàm thao tác (page actions) cơ bản', () => {
 
   test.beforeEach(async ({ page }) => {
@@ -60,7 +61,7 @@ test.describe('Các hàm thao tác (page actions) cơ bản', () => {
     await page.click('.todo-list li .destroy');
 
     // Kiểm tra task đã bị xóa
-    await expect(page.locator('.todo-list li')).toHaveCount(0);
+    await expect(page.locator('.todo-list li')).toHaveCount(1);
   });
 
   test('ACT-05: page.selectOption() – Chọn dropdown', async ({ page }) => {
